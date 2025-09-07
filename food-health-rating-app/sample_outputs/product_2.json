@@ -1,0 +1,55 @@
+{
+  "product_data": {
+    "barcode": "8901234567890",
+    "name": "Whole Grain Cereal",
+    "brand": "NutriGrain",
+    "ingredients": [
+      "whole grain wheat",
+      "sugar",
+      "salt",
+      "vitamins",
+      "minerals"
+    ],
+    "nutrients": {
+      "calories": {
+        "name": "Calories",
+        "value": 120,
+        "unit": "kcal",
+        "per_100g": 120
+      },
+      "total_fat": {
+        "name": "Total Fat",
+        "value": 1,
+        "unit": "g",
+        "per_100g": 1
+      },
+      "sodium": {
+        "name": "Sodium",
+        "value": 200,
+        "unit": "mg",
+        "per_100g": 200
+      },
+      "dietary_fiber": {
+        "name": "Dietary Fiber",
+        "value": 5,
+        "unit": "g",
+        "per_100g": 5
+      },
+      "protein": {
+        "name": "Protein",
+        "value": 4,
+        "unit": "g",
+        "per_100g": 4
+      }
+    },
+    "serving_size_g": 40,
+    "categories": [
+      "cereal"
+    ]
+  },
+  "health_score": {
+    "overall_score": 82,
+    "band": "A",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "product_data": {
+    "barcode": "123456789001",
+    "name": "Organic Steel Cut Oats with Flax",
+    "brand": "Healthy Choice",
+    "ingredients": [
+      "whole grain oats",
+      "wheat bran",
+      "flax seeds",
+      "almonds",
+      "natural vanilla flavor"
+    ],
+    "nutrients": {
+      "calories": {
+        "name": "calories",
+        "value": 150.0,
+        "unit": "g",
+        "per_100g": 375.0
+      },
+      "total_fat": {
+        "name": "total_fat",
+        "value": 3.0,
+        "unit": "g",
+        "per_100g": 7.5
+      },
+      "saturated_fat": {
+        "name": "saturated_fat",
+        "value": 0.5,
+        "unit": "g",
+        "per_100g": 1.25
+      },
+      "sodium": {
+        "name": "sodium",
+        "value": 0.0,
+        "unit": "mg",
+        "per_100g": 0.0
+      },
+      "total_carbohydrates": {
+        "name": "total_carbohydrates",
+        "value": 27.0,
+        "unit": "g",
+        "per_100g": 67.5
+      },
+      "dietary_fiber": {
+        "name": "dietary_fiber",
+        "value": 8.0,
+        "unit": "g",
+        "per_100g": 20.0
+      },
+      "total_sugars": {
+        "name": "total_sugars",
+        "value": 1.0,
+        "unit": "g",
+        "per_100g": 2.5
+      },
+      "protein": {
+        "name": "protein",
+        "value": 5.0,
+        "unit": "g",
+        "per_100g": 12.5
+      }
+    },
+    "serving_size_g": 40.0,
+    "categories": [
+      "breakfast",
+      "cereal"
+    ]
+  },
+  "health_score": {
+    "overall_score": 66,
+    "band": "B",
+    "drivers": [
+      {
+        "factor": "High Fiber Content",
+        "impact": "positive",
+        "score_delta": 10,
+        "explanation": "Contains 20.0g fiber per 100g. High fiber supports digestive health and may reduce chronic disease risk.",
+        "source": "Dietary Guidelines for Americans 2020-2025"
+      },
+      {
+        "factor": "Good Protein Source",
+        "impact": "positive",
+        "score_delta": 3.75,
+        "explanation": "Contains 12.5g protein per 100g. Adequate protein supports muscle health and satiety.",
+        "source": "FDA Nutrition Facts Label Guidelines"
+      },
+      {
+        "factor": "Beneficial Ingredients",
+        "impact": "positive",
+        "score_delta": 3,
+        "explanation": "Contains 1 beneficial ingredient(s): whole grain oats. These support nutritional quality.",
+        "source": "Dietary Guidelines for Americans 2020-2025"
+      }
+    ],
+    "evidence_sources": [
+      "FDA Nutrition Facts Label Guidelines (2016)",
+      "WHO Global Strategy on Diet, Physical Activity and Health (2004)",
+      "Dietary Guidelines for Americans 2020-2025",
+      "European Food Safety Authority (EFSA) Scientific Opinions",
+      "American Heart Association Dietary Guidelines",
+      "Harvard T.H. Chan School of Public Health Nutrition Source"
+    ],
+    "confidence": "high",
+    "warnings": []
+  },
+  "analysis_trace": {
+    "timestamp": "2025-09-07T16:30:36.485778",
+    "input_stage": {
+      "raw_barcode": "123456789001",
+      "raw_name": "Organic Steel Cut Oats with Flax",
+      "raw_ingredients_count": 5,
+      "raw_nutrients_count": 8
+    },
+    "normalization_stage": {
+      "normalized_ingredients": [
+        "whole grain oats",
+        "wheat bran",
+        "flax seeds",
+        "almonds",
+        "natural vanilla flavor"
+      ],
+      "normalized_nutrients": {
+        "calories": {
+          "value": 150.0,
+          "unit": "g",
+          "per_100g": 375.0
+        },
+        "total_fat": {
+          "value": 3.0,
+          "unit": "g",
+          "per_100g": 7.5
+        },
+        "saturated_fat": {
+          "value": 0.5,
+          "unit": "g",
+          "per_100g": 1.25
+        },
+        "sodium": {
+          "value": 0.0,
+          "unit": "mg",
+          "per_100g": 0.0
+        },
+        "total_carbohydrates": {
+          "value": 27.0,
+          "unit": "g",
+          "per_100g": 67.5
+        },
+        "dietary_fiber": {
+          "value": 8.0,
+          "unit": "g",
+          "per_100g": 20.0
+        },
+        "total_sugars": {
+          "value": 1.0,
+          "unit": "g",
+          "per_100g": 2.5
+        },
+        "protein": {
+          "value": 5.0,
+          "unit": "g",
+          "per_100g": 12.5
+        }
+      },
+      "serving_size_g": 40.0
+    },
+    "scoring_stage": {
+      "base_score": 50,
+      "score_deltas": [
+        {
+          "factor": "High Fiber Content",
+          "delta": 10
+        },
+        {
+          "factor": "Good Protein Source",
+          "delta": 3.75
+        },
+        {
+          "factor": "Beneficial Ingredients",
+          "delta": 3
+        }
+      ],
+      "final_score": 66,
+      "confidence": "high"
+    },
+    "explanation_stage": {
+      "drivers": [
+        {
+          "factor": "High Fiber Content",
+          "impact": "positive",
+          "explanation": "Contains 20.0g fiber per 100g. High fiber supports digestive health and may reduce chronic disease risk."
+        },
+        {
+          "factor": "Good Protein Source",
+          "impact": "positive",
+          "explanation": "Contains 12.5g protein per 100g. Adequate protein supports muscle health and satiety."
+        },
+        {
+          "factor": "Beneficial Ingredients",
+          "impact": "positive",
+          "explanation": "Contains 1 beneficial ingredient(s): whole grain oats. These support nutritional quality."
+        }
+      ],
+      "warnings": [],
+      "evidence_sources": [
+        "FDA Nutrition Facts Label Guidelines (2016)",
+        "WHO Global Strategy on Diet, Physical Activity and Health (2004)",
+        "Dietary Guidelines for Americans 2020-2025",
+        "European Food Safety Authority (EFSA) Scientific Opinions",
+        "American Heart Association Dietary Guidelines",
+        "Harvard T.H. Chan School of Public Health Nutrition Source"
+      ]
+    }
+  },
+  "data_hash": "159a8a013d1f2663beb9eb480a361f9d"
+}

@@ -1,0 +1,42 @@
+2025-09-07 16:29:13,708 - INFO - Normalized 8 nutrients
+2025-09-07 16:29:13,709 - INFO - Normalized 5 ingredients from raw text
+2025-09-07 16:29:13,709 - INFO - Normalized 8 nutrients
+2025-09-07 16:29:13,709 - INFO - Normalized 5 ingredients from raw text
+2025-09-07 16:29:13,709 - INFO - Normalized 8 nutrients
+2025-09-07 16:29:13,709 - INFO - Normalized 8 ingredients from raw text
+2025-09-07 16:29:13,709 - INFO - Scoring product: Organic Steel Cut Oats with Flax
+2025-09-07 16:29:13,710 - INFO - Final score: 66 (Band B)
+2025-09-07 16:29:13,714 - INFO - Saved product Organic Steel Cut Oats with Flax to database
+2025-09-07 16:29:13,717 - INFO - Scoring product: Whole Wheat Crackers
+2025-09-07 16:29:13,717 - INFO - Final score: 48 (Band D)
+2025-09-07 16:29:13,722 - INFO - Saved product Whole Wheat Crackers to database
+2025-09-07 16:29:13,725 - INFO - Scoring product: Cheesy Snack Crackers
+2025-09-07 16:29:13,725 - INFO - Final score: 0 (Band E)
+2025-09-07 16:29:13,730 - INFO - Saved product Cheesy Snack Crackers to database
+2025-09-07 16:30:36,478 - INFO - Normalized 8 nutrients
+2025-09-07 16:30:36,479 - INFO - Normalized 5 ingredients from raw text
+2025-09-07 16:30:36,479 - INFO - Normalized 8 nutrients
+2025-09-07 16:30:36,479 - INFO - Normalized 5 ingredients from raw text
+2025-09-07 16:30:36,479 - INFO - Normalized 8 nutrients
+2025-09-07 16:30:36,479 - INFO - Normalized 8 ingredients from raw text
+2025-09-07 16:30:36,479 - INFO - Scoring product: Organic Steel Cut Oats with Flax
+2025-09-07 16:30:36,480 - INFO - Final score: 66 (Band B)
+2025-09-07 16:30:36,485 - INFO - Saved product Organic Steel Cut Oats with Flax to database
+2025-09-07 16:30:36,486 - INFO - Scoring product: Whole Wheat Crackers
+2025-09-07 16:30:36,487 - INFO - Final score: 48 (Band D)
+2025-09-07 16:30:36,492 - INFO - Saved product Whole Wheat Crackers to database
+2025-09-07 16:30:36,494 - INFO - Scoring product: Cheesy Snack Crackers
+2025-09-07 16:30:36,494 - INFO - Final score: 0 (Band E)
+2025-09-07 16:30:36,499 - INFO - Saved product Cheesy Snack Crackers to database
+2025-09-07 16:31:22,531 - INFO - Scoring product: Organic Steel Cut Oats with Flax
+2025-09-07 16:35:05,022 - INFO - Scoring product: Organic Steel Cut Oats with Flax
+2025-09-07 16:35:05,023 - INFO - Final score: 66 (Band B)
+2025-09-07 16:35:05,029 - INFO - Saved product Organic Steel Cut Oats with Flax to database
+2025-09-07 20:01:33,014 - INFO - Normalized 11 ingredients from raw text
+2025-09-07 20:01:33,015 - INFO - Normalized 6 nutrients
+2025-09-07 20:01:33,018 - INFO - Scoring product: Coca-Cola
+2025-09-07 20:01:33,018 - INFO - Final score: 53 (Band C)
+2025-09-07 20:01:33,025 - INFO - Saved product Coca-Cola to database
+2025-09-07 20:09:36,509 - INFO - Scoring product: Coca-Cola
+2025-09-07 20:09:36,509 - INFO - Final score: 53 (Band C)
+2025-09-07 20:09:36,516 - INFO - Saved product Coca-Cola to database

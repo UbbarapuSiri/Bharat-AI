@@ -1,0 +1,29 @@
+{
+  "barcode": "1234567890123",
+  "name": "Healthy Granola Bar",
+  "brand": "NutriGood",
+  "ingredients": ["whole grain oats", "honey", "almonds", "fiber", "natural flavors"],
+  "nutrients": {
+    "calories": {"name": "Calories", "value": 150, "unit": "kcal", "per_100g": 400},
+    "total_fat": {"name": "Total Fat", "value": 6, "unit": "g", "per_100g": 16},
+    "saturated_fat": {"name": "Saturated Fat", "value": 1, "unit": "g", "per_100g": 2.7},
+    "sodium": {"name": "Sodium", "value": 80, "unit": "mg", "per_100g": 213},
+    "total_carbohydrates": {"name": "Total Carbohydrates", "value": 22, "unit": "g", "per_100g": 58.7},
+    "dietary_fiber": {"name": "Dietary Fiber", "value": 4, "unit": "g", "per_100g": 10.7},
+    "total_sugars": {"name": "Total Sugars", "value": 8, "unit": "g", "per_100g": 21.3},
+    "protein": {"name": "Protein", "value": 5, "unit": "g", "per_100g": 13.3}
+  },
+  "serving_size_g": 37.5,
+  "categories": ["snack", "cereal"],
+  "health_score": {
+    "overall_score": 87,
+    "band": "A",
+    "drivers": [
+      {"factor": "High Fiber Content", "impact": "positive", "score_delta": 6, "explanation": "Contains 10.7g fiber per 100g. High fiber supports digestive health.", "source": "Dietary Guidelines for Americans 2020-2025"},
+      {"factor": "Beneficial Ingredients", "impact": "positive", "score_delta": 9, "explanation": "Contains whole grain oats, almonds, fiber.", "source": "Dietary Guidelines for Americans 2020-2025"}
+    ],
+    "evidence_sources": ["FDA Nutrition Facts Label Guidelines (2016)", "WHO Global Strategy on Diet, Physical Activity and Health (2004)", "Dietary Guidelines for Americans 2020-2025"],
+    "confidence": "high",
+    "warnings": []
+  }
+}

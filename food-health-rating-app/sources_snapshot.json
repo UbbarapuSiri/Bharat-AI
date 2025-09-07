@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-09-07T16:30:36.501448",
+  "sources": [
+    {
+      "title": "FDA Nutrition Facts Label Guidelines",
+      "year": "2016",
+      "url": "https://www.fda.gov/food/food-labeling-nutrition/nutrition-facts-label",
+      "access_date": "2025-09-07",
+      "license": "Public Domain",
+      "description": "Official US guidance on nutrition labeling standards and daily values"
+    },
+    {
+      "title": "WHO Global Strategy on Diet, Physical Activity and Health (2004)",
+      "year": "2004",
+      "url": "https://www.who.int/publications/i/item/9241592222",
+      "access_date": "2025-09-07",
+      "license": "Public Domain",
+      "description": "World Health Organization recommendations for healthy diets"
+    },
+    {
+      "title": "Dietary Guidelines for Americans 2020-2025",
+      "year": "2020",
+      "url": "https://www.dietaryguidelines.gov/",
+      "access_date": "2025-09-07",
+      "license": "Public Domain",
+      "description": "Evidence-based nutrition recommendations from USDA and HHS"
+    },
+    {
+      "title": "European Food Safety Authority Scientific Opinions",
+      "year": "Various",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/food-additives",
+      "access_date": "2025-09-07",
+      "license": "Creative Commons",
+      "description": "EU scientific assessments of food additives and nutrients"
+    },
+    {
+      "title": "American Heart Association Dietary Guidelines",
+      "year": "2021",
+      "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/aha-diet-and-lifestyle-recommendations",
+      "access_date": "2025-09-07",
+      "license": "All Rights Reserved",
+      "description": "Cardiovascular health-focused nutrition recommendations"
+    },
+    {
+      "title": "Harvard T.H. Chan School of Public Health Nutrition Source",
+      "year": "Ongoing",
+      "url": "https://www.hsph.harvard.edu/nutritionsource/",
+      "access_date": "2025-09-07",
+      "license": "Academic Use",
+      "description": "Evidence-based nutrition information from leading research institution"
+    }
+  ],
+  "methodology_notes": {
+    "scoring_algorithm": "Evidence-based nutrient thresholds with ingredient classification",
+    "confidence_calculation": "Weighted by data completeness and source reliability",
+    "bias_mitigation": "Multiple authoritative sources, transparent calculations",
+    "limitations": "General population guidelines, individual variation not accounted"
+  }
+}

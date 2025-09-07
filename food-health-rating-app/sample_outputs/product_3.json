@@ -1,0 +1,55 @@
+{
+  "product_data": {
+    "barcode": "1234567890123",
+    "name": "Potato Chips",
+    "brand": "Crunchy",
+    "ingredients": [
+      "potatoes",
+      "vegetable oil",
+      "salt",
+      "artificial flavors",
+      "bha"
+    ],
+    "nutrients": {
+      "calories": {
+        "name": "Calories",
+        "value": 150,
+        "unit": "kcal",
+        "per_100g": 150
+      },
+      "total_fat": {
+        "name": "Total Fat",
+        "value": 10,
+        "unit": "g",
+        "per_100g": 10
+      },
+      "sodium": {
+        "name": "Sodium",
+        "value": 500,
+        "unit": "mg",
+        "per_100g": 500
+      },
+      "dietary_fiber": {
+        "name": "Dietary Fiber",
+        "value": 2,
+        "unit": "g",
+        "per_100g": 2
+      },
+      "protein": {
+        "name": "Protein",
+        "value": 2,
+        "unit": "g",
+        "per_100g": 2
+      }
+    },
+    "serving_size_g": 30,
+    "categories": [
+      "snack"
+    ]
+  },
+  "health_score": {
+    "overall_score": 38,
+    "band": "D",
+    "confidence": "medium"
+  }
+}

@@ -1,0 +1,131 @@
+app_name: Food Health Rating App
+log_file: food_rating.log
+database: products.db
+ocr_tesseract_path: C:\Users\siriu\Downloads\tesseract-ocr-w64-setup-5.5.0.20241111.exe
+
+# Food Health Rating App Configuration
+
+# Database settings
+database:
+  path: "products.db"
+  backup_enabled: true
+  backup_interval_hours: 24
+
+# Scoring algorithm thresholds
+scoring:
+  # Positive factor thresholds
+  fiber_threshold_g: 6.0
+  protein_threshold_g: 12.0
+  
+  # Negative factor thresholds  
+  sodium_threshold_mg: 600
+  saturated_fat_threshold_g: 5.0
+  sugar_threshold_g: 15.0
+  
+  # Score multipliers
+  fiber_multiplier: 1.5
+  protein_multiplier: 0.3
+  sodium_penalty_rate: 0.01
+  saturated_fat_penalty_rate: 1.5
+  sugar_penalty_rate: 0.5
+  
+  # Additive penalties
+  harmful_additive_penalty: 5.0
+  ultra_processed_penalty: 2.0
+  ultra_processed_threshold: 3
+  
+  # Beneficial ingredient bonus
+  beneficial_ingredient_bonus: 3.0
+  
+  # Score bounds
+  min_score: 0
+  max_score: 100
+  base_score: 50
+
+# Confidence calculation weights
+confidence:
+  nutrients_weight: 50
+  ingredients_weight: 30
+  barcode_weight: 10
+  brand_weight: 10
+  
+  # Confidence thresholds
+  high_threshold: 80
+  medium_threshold: 60
+
+# Grade bands
+grades:
+  A_min: 80
+  B_min: 65
+  C_min: 50
+  D_min: 35
+  E_min: 0
+
+# UI settings
+ui:
+  items_per_page: 20
+  default_serving_size: 100
+  max_search_results: 50
+  history_display_limit: 100
+
+# Data processing
+processing:
+  # Nutrient normalization
+  normalize_to_100g: true
+  handle_missing_nutrients: true
+  
+  # Ingredient processing
+  remove_parenthetical: true
+  normalize_whitespace: true
+  min_ingredient_length: 2
+
+# Logging configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "food_rating.log"
+  max_file_size_mb: 10
+  backup_count: 5
+  
+  # Log format
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+
+# Evidence sources (for reference)
+sources:
+  fda_guidelines:
+    title: "FDA Nutrition Facts Label Guidelines"
+    year: 2016
+    url: "https://www.fda.gov/food/nutrition-facts-label"
+    
+  who_strategy:
+    title: "WHO Global Strategy on Diet, Physical Activity and Health"
+    year: 2004
+    url: "https://www.who.int/publications/i/item/9241592222"
+    
+  dietary_guidelines:
+    title: "Dietary Guidelines for Americans 2020-2025"
+    year: 2020
+    url: "https://www.dietaryguidelines.gov/"
+    
+  efsa_opinions:
+    title: "European Food Safety Authority Scientific Opinions"
+    year: "Various"
+    url: "https://www.efsa.europa.eu/en/efsajournal"
+    
+  aha_guidelines:
+    title: "American Heart Association Dietary Guidelines"
+    year: 2021
+    url: "https://www.heart.org/en/healthy-living/healthy-eating"
+    
+  harvard_nutrition:
+    title: "Harvard T.H. Chan School of Public Health Nutrition Source"
+    year: "Ongoing"
+    url: "https://www.hsph.harvard.edu/nutritionsource/"
+
+# Feature flags
+features:
+  enable_barcode_api: false  # Future: External barcode API integration
+  enable_ocr: false          # Future: Image OCR for ingredient lists
+  enable_export: true        # CSV/PDF export functionality
+  enable_comparisons: true   # Side-by-side product comparisons
+  enable_history_search: true
